@@ -6,7 +6,7 @@
 //  Copyright © 2017 Aaron Hayman. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Dispatch.
 FOUNDATION_EXPORT double DispatchVersionNumber;

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		651477ED1E6F020900190A44 /* Dispatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651477E31E6F020900190A44 /* Dispatch.framework */; };
+		651477ED1E6F020900190A44 /* Dispatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651477E31E6F020900190A44 /* Dispatcher.framework */; };
 		651477F21E6F020900190A44 /* DispatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651477F11E6F020900190A44 /* DispatchTests.swift */; };
 		651477F41E6F020900190A44 /* Dispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 651477E61E6F020900190A44 /* Dispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		651477FE1E6F027400190A44 /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651477FD1E6F027400190A44 /* Dispatch.swift */; };
@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		651477E31E6F020900190A44 /* Dispatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dispatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651477E31E6F020900190A44 /* Dispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		651477E61E6F020900190A44 /* Dispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dispatch.h; sourceTree = "<group>"; };
 		651477E71E6F020900190A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651477EC1E6F020900190A44 /* DispatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DispatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651477ED1E6F020900190A44 /* Dispatch.framework in Frameworks */,
+				651477ED1E6F020900190A44 /* Dispatcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 		651477E41E6F020900190A44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				651477E31E6F020900190A44 /* Dispatch.framework */,
+				651477E31E6F020900190A44 /* Dispatcher.framework */,
 				651477EC1E6F020900190A44 /* DispatchTests.xctest */,
 			);
 			name = Products;
@@ -103,9 +103,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		651477E21E6F020900190A44 /* Dispatch */ = {
+		651477E21E6F020900190A44 /* Dispatcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 651477F71E6F020900190A44 /* Build configuration list for PBXNativeTarget "Dispatch" */;
+			buildConfigurationList = 651477F71E6F020900190A44 /* Build configuration list for PBXNativeTarget "Dispatcher" */;
 			buildPhases = (
 				651477DE1E6F020900190A44 /* Sources */,
 				651477DF1E6F020900190A44 /* Frameworks */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = Dispatch;
+			name = Dispatcher;
 			productName = Dispatch;
-			productReference = 651477E31E6F020900190A44 /* Dispatch.framework */;
+			productReference = 651477E31E6F020900190A44 /* Dispatcher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		651477EB1E6F020900190A44 /* DispatchTests */ = {
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				651477E21E6F020900190A44 /* Dispatch */,
+				651477E21E6F020900190A44 /* Dispatcher */,
 				651477EB1E6F020900190A44 /* DispatchTests */,
 			);
 		};
@@ -219,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		651477EF1E6F020900190A44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 651477E21E6F020900190A44 /* Dispatch */;
+			target = 651477E21E6F020900190A44 /* Dispatcher */;
 			targetProxy = 651477EE1E6F020900190A44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,7 +337,7 @@
 				INFOPLIST_FILE = Dispatch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = flexilesoft.Dispatch;
+				PRODUCT_BUNDLE_IDENTIFIER = flexilesoft.Dispatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -358,7 +358,7 @@
 				INFOPLIST_FILE = Dispatch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = flexilesoft.Dispatch;
+				PRODUCT_BUNDLE_IDENTIFIER = flexilesoft.Dispatcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		651477F71E6F020900190A44 /* Build configuration list for PBXNativeTarget "Dispatch" */ = {
+		651477F71E6F020900190A44 /* Build configuration list for PBXNativeTarget "Dispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				651477F81E6F020900190A44 /* Debug */,
